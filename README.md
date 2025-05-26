@@ -11,11 +11,9 @@ Given the high economic and health risks associated with these issues, accurate 
 
 ## Experimentation Table
 
-## Experiment Table
-
 | Experiment No. | Model Details                                                                                             | RMSE    |
 |---------------|---------------------------------------------------------------------------------------------------------|---------|
-| 1 (Baseline)  | LSTM(32, relu), Dropout(0.2), Dense(1); lr=0.01; batch=32; optimizer=Adam                                 | 10.32   |
+| 1   | LSTM(32, relu), Dropout(0.2), Dense(1); lr=0.01; batch=32; optimizer=Adam                                 | 4991.478   |
 | 2             | LSTM(64, relu), Dropout(0.3), Dense(1); lr=0.005; batch=32; Adam                                          | 9.87    |
 | 3             | 2x LSTM(64, relu), Dropout(0.3), Dense(1); lr=0.005; batch=32; Adam                                       | 9.42    |
 | 4             | LSTM(64, tanh), Dropout(0.3), Dense(1); lr=0.005; batch=32; Adam                                          | 9.56    |
