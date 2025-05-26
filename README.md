@@ -15,7 +15,9 @@ Given the high economic and health risks associated with these issues, accurate 
 |---------------|---------------------------------------------------------------------------------------------------------|---------|
 | 1   | LSTM(32, relu), Dropout(0.2), Dense(1); lr=0.01; batch=32; optimizer=Adam                                 | 4991.478   |
 | 2             | LSTM(64, relu), Dropout(0.3), Dense(1); lr=0.001; batch=32; Adam                                          | 5265.206    |
-| 3             | 2x LSTM(64, relu), Dropout(0.3), Dense(1); lr=0.005; batch=32; Adam                                       | 9.42    |
-| 4             | LSTM(64, tanh), Dropout(0.3), Dense(1); lr=0.005; batch=32; Adam                                          | 9.56    |
+| 3             | LSTM(64, tanh), Dropout(0.3) *2, Dense(32), Dense(1); lr=0.005; batch=32; Adam                                       | 5028.105    |
+| 4             | LSTM(64, tanh), Dropout(0.2), Dense(1); lr=0.01; batch=64; Epochs=10;RMSprop                                          | 4794.416   |
+| 5             | LSTM(64, relu), Dropout(0.2), Dense(1); lr=0.01; batch=128; Epochs=10;RMSprop                                          | 4744.571    |
+| 6             | LSTM(64, relu), Dropout(0.2), Dense(1); lr=0.005; batch=64; Epochs=15;Adam                                          | 5015.431    |
 | ...           | ...                                                                                                       | ...     |
 
