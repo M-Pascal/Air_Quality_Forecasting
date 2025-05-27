@@ -1,4 +1,4 @@
-# Air_Quality_Forecasting
+# Air_Quality_Forecasting Report
 ### Problem Statement:
 Beijing air pollution is a critical and long-term problem that existed over decades, driven by the predominance of rapid industrialization, economic development, heavy traffic, and adverse weather [1], [2]. These pollutants have PM2.5 which is a fine particle of contaminated air with a diameter of less than 2.5 micrometers is very dangerous to human beings due to its ability to penetrate deep into the lungs and blood system, causing severe cardiovascular and respiratory diseases [1], [3]. Within 6 years, since 2014 in Beijing only the average of maximum PM2.5 concentration was 74.4 µg/m³, well above national and international safety standards [1], [4]. Seasonal peaks of pollution, particularly during winter due to residential coal burning for heating and atmospheric inversions, add to the city's air quality crisis [2], [4].
 
