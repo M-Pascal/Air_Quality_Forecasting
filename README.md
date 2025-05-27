@@ -23,7 +23,7 @@ Given the high economic and health risks associated with these issues, accurate 
 | 11             | GRU(64, relu), Dropout(0.2), Dense(1); lr=0.001; batch=32; Epochs=50;Adamax                                          | 4280.646    |
 
 
-# **The Selected model of ```LSTM```**
+## **The Selected model of ```LSTM```**
 
 After conducting multiple experiments with different architectures, the selected model
 demonstrated superior performance in terms of minimizing RMSE while ensuring generalization to enhance performance of model was this one:
@@ -34,7 +34,7 @@ demonstrated superior performance in terms of minimizing RMSE while ensuring gen
 
 - Dropout layer (20%) for regularization.
 
-## **Dense layers:**
+#### **Dense layers:**
 
 - Fully connected layer with 32 units, ReLU activation.
 
@@ -44,14 +44,14 @@ demonstrated superior performance in terms of minimizing RMSE while ensuring gen
 
 - *Loss function*: Mean Squared Error (MSE) which were **4821.070**.
 
-## **Training:**
+#### **Training:**
 
 - 35 epochs with a batch size of 64, with the use of Early stopping.
 
 - Learner Regression was used as an Imputer predict method for dealing with missing values
 
 
-# Project Structure (```Air_Quality_Forecasting```)
+## Project Structure (```Air_Quality_Forecasting```)
 ├── Data/                  # Dataset 
 
 ├── Output_Experiment/         # Attempt for experiment
@@ -59,11 +59,11 @@ demonstrated superior performance in terms of minimizing RMSE while ensuring gen
 ├── README.md              # Project documentation
 
 
-# *Setup*
+## *Setup*
 To run the code, follow this instructions. 
 
 - Clone this Repo: [Link to Repo](https://github.com/M-Pascal/Air_Quality_Forecasting.git)
 - Review and Comment this [Jupyter Notebook](https://colab.research.google.com/drive/1-aPZeJn6ReAsq36e_1rso4nZHY0BrXz5?usp=sharing)
 
-## **Contributors**
+### **Contributors**
 > Pascal Mugisha
