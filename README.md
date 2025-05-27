@@ -78,13 +78,15 @@ To run the code, follow this instructions.
 - Change of loss within different experiment some were high that Baseline(Best)
 
 ## Recommandation:
-> - Experiment with Bidirectional LSTMs or GRUs for richer context, <br> - Add exogenous features like wind direction or holidays, <br> - Explore ensemble methods combining LSTM with tree-based models for robustness
+> - Experiment with Bidirectional LSTMs or GRUs for richer context,
+- Add exogenous features like wind direction or holidays,
+- Explore ensemble methods combining LSTM with tree-based models for robustness
 
 
 ### **Contributors**
 > Pascal Mugisha
 
-
+<br>
 
 # Reference List:
 [1] K. Kaur, S. Das, and K. Singh, “Air Quality Prediction in Beijing: Machine and Deep Learning Analysis,” in ITM Web of Conferences, 2024. [Online]. Available: https://www.itm-conferences.org/10.1051/itmconf/20246801012
