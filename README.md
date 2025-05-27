@@ -62,7 +62,7 @@ demonstrated superior performance in terms of minimizing RMSE while ensuring gen
 # *Setup*
 To run the code, follow this instructions. 
 
-- Clone this Repo: (Link to Repo)[!https://github.com/M-Pascal/Air_Quality_Forecasting.git]
+- Clone this Repo: [Link to Repo](https://github.com/M-Pascal/Air_Quality_Forecasting.git)
 - Run the Jupyter Notebook
 
 ## **Contributors**
