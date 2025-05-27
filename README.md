@@ -78,8 +78,8 @@ To run the code, follow this instructions.
 - Change of loss within different experiment some were high that Baseline(Best)
 
 ## Recommandation:
-> - Experiment with Bidirectional LSTMs or GRUs for richer context,
-- Add exogenous features like wind direction or holidays,
+> - Experiment with Bidirectional LSTMs or GRUs for richer context,<br>
+- Add exogenous features like wind direction or holidays,<br>
 - Explore ensemble methods combining LSTM with tree-based models for robustness
 
 
